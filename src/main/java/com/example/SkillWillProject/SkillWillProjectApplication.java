@@ -29,17 +29,17 @@ public class SkillWillProjectApplication {
 	}
 
 	public void run() {
-		// Display all users
+		// yvela users vachvenebt ase
 		userService.getAllUsers().forEach(System.out::println);
 
-		// Add new user
+		// axali useris damateba
 		User newUser = new User(4L, "David");
 		userService.addUser(newUser);
 
-		// Display all users again
+		// axlidan bachvenebt users rata gavigot rom martlac daemata axali useri
 		userService.getAllUsers().forEach(System.out::println);
 
-		// Display default user
+		// amit vachvenebt default user
 		System.out.println("Default user: " + defaultUser);
 	}
 }

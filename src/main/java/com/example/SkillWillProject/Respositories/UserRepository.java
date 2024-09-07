@@ -2,11 +2,12 @@ package com.example.SkillWillProject.Respositories;
 
 import com.example.SkillWillProject.model.User;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
+@Repository
 public class UserRepository {
     private List<User> users = new ArrayList<>();
 
